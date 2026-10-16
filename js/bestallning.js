@@ -119,7 +119,7 @@ const map = await new Promise((ok) => { const v = () => (el?.map ? ok(el.map) : 
 if (!map.isStyleLoaded()) await new Promise((ok) => map.once("load", ok));
 const forsta = map.getStyle().layers.find((l) => l.type === "symbol")?.id;   // våra lager under ortnamnen
 
-map.addSource("rutor", { type: "geojson", data: rutor });
+map.addSource("rutor", { type: "geojson", data: rutor, promoteId: "id" });
 map.addSource("iso", { type: "geojson", data: iso });
 map.addSource("kommun", { type: "geojson", data: kommun });
 map.addSource("deso", { type: "geojson", data: deso, promoteId: "desokod" });
@@ -128,6 +128,8 @@ const tidUttryck = () => ["step", ["coalesce", ["get", kol(S.mal, S.fs)], 999],
 const invText = (v) => (v == null || v === "null" ? "färre än 5" : fmt(+v));
 const tatUttryck = ["step", ["coalesce", ["get", "tathet"], 0], TATFARG[0], TATHET[0], TATFARG[1], TATHET[1], TATFARG[2], TATHET[2], TATFARG[3], TATHET[3], TATFARG[4]];
 map.addLayer({ id: "rutor-yta", type: "fill", source: "rutor", paint: { "fill-color": tidUttryck(), "fill-opacity": .88 } }, forsta);
+map.addLayer({ id: "rutor-hover", type: "line", source: "rutor",
+  paint: { "line-color": "#1B2420", "line-width": 2, "line-opacity": ["case", ["boolean", ["feature-state", "hover"], false], .95, 0] } }, forsta);
 map.addLayer({ id: "rutor-3d", type: "fill-extrusion", source: "rutor", layout: { visibility: "none" },
   paint: { "fill-extrusion-color": tidUttryck(), "fill-extrusion-height": ["*", ["coalesce", ["get", "pop"], 2], 6], "fill-extrusion-opacity": .9 } }, forsta);
 // DeSO: koroplet i vyn DeSO, annars osynlig yta som tar emot klick; gränser, hovring och valt område
@@ -162,57 +164,61 @@ for (const f of malgeo.features) {
     .setLngLat(f.geometry.coordinates).addTo(map);
 }
 
-// klick: en ruta ger popup med restid till alla mål och väljer rutans DeSO; ett område väljs direkt
+// Interaktionen följer vald vy: Bostäder/Täthet = rutor, DeSO = områden, Isokroner = zoner.
+const iVy = () => (S.vy === "deso" ? "deso" : S.vy === "iso" ? "iso" : "rutor");
+const traff = (e) => {
+  const v = iVy();
+  if (v === "rutor") return map.queryRenderedFeatures(e.point, { layers: [S.d3 ? "rutor-3d" : "rutor-yta"] })[0] ?? null;
+  if (v === "deso") return map.queryRenderedFeatures(e.point, { layers: ["deso-yta"] })[0] ?? null;
+  const z = map.queryRenderedFeatures(e.point, { layers: ["iso-yta"] });
+  return z.length ? z.reduce((a, b) => (b.properties.cutoff < a.properties.cutoff ? b : a)) : null;
+};
+const rutPopup = (p) => {
+  const rader = meta.mal.map((m) => { const t = p[kol(m.id, S.fs)];
+    return `<tr class="${m.id === S.mal ? "vald" : ""}"><td>${esc(m.namn)}</td><td>${t == null || t === "null" ? `över ${meta.max_restid}` : t} min</td></tr>`; }).join("");
+  const d = desoPer[p.desokod]?.properties;
+  return `<div class="popup"><h3>${invText(p.pop)} invånare${p.tathet == null || p.tathet === "null" ? "" : ` · ${fmt(+p.tathet)} inv/km²`}</h3>
+    <div style="color:#4A5450;margin-bottom:6px">${meta.ruta} m-ruta${d ? ` i ${esc(d.namn)}` : ""} · ${FS_NAMN[S.fs]}</div><table>${rader}</table></div>`;
+};
 let popup = null;
 map.on("click", (e) => {
-  const ruta = S.vy !== "deso" && S.vy !== "iso" ? map.queryRenderedFeatures(e.point, { layers: [S.d3 ? "rutor-3d" : "rutor-yta"] })[0] : null;
-  const omr = map.queryRenderedFeatures(e.point, { layers: ["deso-yta"] })[0];
-  popup?.remove();
-  if (ruta) {
-    const p = ruta.properties;
-    const rader = meta.mal.map((m) => { const t = p[kol(m.id, S.fs)];
-      return `<tr class="${m.id === S.mal ? "vald" : ""}"><td>${esc(m.namn)}</td><td>${t == null || t === "null" ? `över ${meta.max_restid}` : t} min</td></tr>`; }).join("");
-    popup = new maplibregl.Popup({ maxWidth: "300px" }).setLngLat(e.lngLat).setHTML(
-      `<div class="popup"><h3>${invText(p.pop)} invånare${p.tathet == null || p.tathet === "null" ? "" : ` · ${fmt(+p.tathet)} inv/km²`}</h3>
-       <div style="color:#4A5450;margin-bottom:6px">${meta.ruta} m-ruta · ${FS_NAMN[S.fs]}</div><table>${rader}</table></div>`).addTo(map);
-    if (p.desokod) valj({ deso: p.desokod });
-  } else if (omr) valj({ deso: omr.properties.desokod });
-  else if (S.deso) valj({ deso: null });
+  const f = traff(e), v = iVy();
+  popup?.remove(); popup = null;
+  if (v === "rutor" && f) popup = new maplibregl.Popup({ maxWidth: "300px" }).setLngLat(e.lngLat).setHTML(rutPopup(f.properties)).addTo(map);
+  else if (v === "deso") valj({ deso: f ? f.properties.desokod : null });
+  else if (v === "iso" && f) popup = new maplibregl.Popup({ maxWidth: "280px" }).setLngLat(e.lngLat).setHTML(
+    `<div class="popup">Härifrån når man <b>${esc(malNamn[S.mal])}</b> inom <b>${f.properties.cutoff} min</b> med ${FS_NAMN[S.fs].toLowerCase()}.</div>`).addTo(map);
 });
-let hoverId = null;
-map.on("mousemove", "deso-yta", (e) => {
-  const id = e.features[0]?.id;
-  if (hoverId !== null && hoverId !== id) map.setFeatureState({ source: "deso", id: hoverId }, { hover: false });
-  hoverId = id; if (id != null) map.setFeatureState({ source: "deso", id }, { hover: true });
-  map.getCanvas().style.cursor = "pointer";
-});
-map.on("mouseleave", "deso-yta", () => {
-  if (hoverId !== null) map.setFeatureState({ source: "deso", id: hoverId }, { hover: false });
-  hoverId = null; map.getCanvas().style.cursor = "";
-});
+// markering av objektet under muspekaren (ruta eller område) via feature-state
+let hov = null;
+const satHov = (kalla, id) => {
+  if (hov && (hov.kalla !== kalla || hov.id !== id)) map.setFeatureState({ source: hov.kalla, id: hov.id }, { hover: false });
+  hov = id != null ? { kalla, id } : null;
+  if (hov) map.setFeatureState({ source: kalla, id }, { hover: true });
+};
 // tooltip vid hovring: isokronzon, ruta eller DeSO beroende på vy (pekskärm: klick ger popup i stället)
 const tip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, className: "hovertip", offset: 14, maxWidth: "270px" });
 const tidText = (t) => (t == null || t === "null" ? `över ${meta.max_restid} min` : `${t} min`);
 map.on("mousemove", (e) => {
   let html = null;
-  const fsn = FS_NAMN[S.fs].toLowerCase(), mn = esc(malNamn[S.mal]);
-  if (S.vy === "iso") {
-    const z = map.queryRenderedFeatures(e.point, { layers: ["iso-yta"] });
-    html = z.length ? `Härifrån når man <b>${mn}</b> inom <b>${Math.min(...z.map((f) => f.properties.cutoff))} min</b> med ${fsn}.`
-                    : `Härifrån tar det mer än ${Math.max(...meta.cutoffs)} min till ${mn} med ${fsn}.`;
-  } else if (S.vy === "deso") {
-    const d = map.queryRenderedFeatures(e.point, { layers: ["deso-yta"] })[0];
-    if (d) { const p = d.properties, m = p[`m_${nyck(S.mal, S.fs)}`];
-      html = `<b>${esc(p.namn)}</b><br>${fmt(+p.pop)} invånare · hälften når ${mn} inom <b>${tidText(m)}</b><br><span class="tip-hint">Klicka för detaljer</span>`; }
+  const fsn = FS_NAMN[S.fs].toLowerCase(), mn = esc(malNamn[S.mal]), v = iVy(), f = traff(e);
+  satHov(v === "rutor" ? "rutor" : v === "deso" ? "deso" : null, v !== "iso" && f ? f.id : null);
+  map.getCanvas().style.cursor = f && v !== "iso" ? "pointer" : "";
+  if (v === "iso") {
+    html = f ? `Härifrån når man <b>${mn}</b> inom <b>${f.properties.cutoff} min</b> med ${fsn}.`
+             : `Härifrån tar det mer än ${Math.max(...meta.cutoffs)} min till ${mn} med ${fsn}.`;
+  } else if (v === "deso") {
+    if (f) { const p = f.properties, m = p[`m_${nyck(S.mal, S.fs)}`];
+      html = `<b>${esc(p.namn)}</b><br>${fmt(+p.pop)} invånare · hälften når ${mn} inom <b>${tidText(m)}</b><br><span class="tip-hint">Klicka för att välja området</span>`; }
   } else {
-    const r = map.queryRenderedFeatures(e.point, { layers: [S.d3 ? "rutor-3d" : "rutor-yta"] })[0];
+    const r = f;
     if (r) { const p = r.properties, d = desoPer[p.desokod]?.properties;
       html = S.vy === "tathet" ? `<b>${invText(p.pop)} invånare</b> i rutan${p.tathet == null || p.tathet === "null" ? "" : ` · ${fmt(+p.tathet)} inv/km²`}${d ? `<br>${esc(d.namn)}` : ""}`
         : `<b>${tidText(p[kol(S.mal, S.fs)])}</b> till ${mn} med ${fsn}<br>${invText(p.pop)} invånare i rutan${d ? ` · ${esc(d.namn)}` : ""}<br><span class="tip-hint">Klicka för alla mål</span>`; }
   }
   if (html) tip.setLngLat(e.lngLat).setHTML(html).addTo(map); else tip.remove();
 });
-el.addEventListener("mouseleave", () => tip.remove());
+el.addEventListener("mouseleave", () => { tip.remove(); satHov(null, null); });
 
 // skylt i kartan: vad visas just nu
 const skylt = document.createElement("div");
@@ -234,6 +240,9 @@ function rita() {
   map.setPaintProperty("deso-linje", "line-color", desoVy ? "#FFFFFF" : "#1B2420");
   map.setPaintProperty("deso-linje", "line-opacity", desoVy ? .9 : isoVy ? 0 : .3);
   map.setPaintProperty("deso-linje", "line-width", desoVy ? 1.1 : .6);
+  map.setLayoutProperty("deso-hover", "visibility", desoVy ? "visible" : "none");
+  map.setLayoutProperty("rutor-hover", "visibility", !isoVy && !desoVy && !d3 ? "visible" : "none");
+  map.setLayoutProperty("deso-vald", "visibility", isoVy ? "none" : "visible");
   map.setFilter("deso-vald", ["==", ["get", "desokod"], S.deso ?? ""]);
   map.setLayoutProperty("rutor-3d", "visibility", d3 ? "visible" : "none");
   if (d3 && map.getPitch() < 30) map.easeTo({ pitch: 55, duration: 600 });
@@ -241,8 +250,12 @@ function rita() {
   const filt = ["all", ["==", ["get", "id"], S.mal], ["==", ["get", "fardsatt"], S.fs]];
   const synlig = { "iso-yta": isoVy, "iso-linje": isoVy || (S.iso && S.vy === "restid"), "iso-etikett": isoVy || (S.iso && S.vy === "restid") };
   for (const [l, v] of Object.entries(synlig)) { map.setFilter(l, filt); map.setLayoutProperty(l, "visibility", v ? "visible" : "none"); }
+  const hint = { rutor: "ruta: hovra för siffror, klicka för restid till alla mål", deso: "område: hovra för siffror, klicka för att välja",
+                 iso: "zon: hovra eller klicka för restid" }[iVy()];
   skylt.innerHTML = `<div><b>${esc(VYTEXT[S.vy])}</b>${S.vy === "tathet" ? "" : ` · ${esc(malNamn[S.mal])} · ${FS_NAMN[S.fs]}`}</div>
-    <span>${matchMedia("(hover: hover)").matches ? "Hovra för siffror, klicka på ett område för detaljer" : "Tryck på kartan för siffror"}</span>`;
+    <span>${matchMedia("(hover: hover)").matches ? "Per " + hint : "Tryck på kartan för siffror"}</span>`;
+  popup?.remove(); popup = null;            // nytt val = popupens siffror gäller inte längre
+  satHov(null, null); tip.remove();
   panel.querySelector("#lbl-iso").hidden = S.vy !== "restid";
   panel.querySelector("#lbl-3d").hidden = isoVy || desoVy;
   for (const [id, m] of Object.entries(markorer)) m.getElement().classList.toggle("vald", id === S.mal);
