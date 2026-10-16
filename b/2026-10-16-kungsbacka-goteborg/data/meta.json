@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-16-kungsbacka-goteborg",
+  "titel": "Kungsbacka till Göteborg",
+  "underrubrik": "Restid med bil och kollektivtrafik från bostäderna i Kungsbacka kommun till sex målpunkter i Göteborg och Kungsbacka",
+  "datum": "2026-10-16",
+  "status": "utkast",
+  "fraga": "Boende i Kungsbacka kommun och deras tillgång till Göteborg C, Kungsbacka C, Sahlgrenska\nuniversitetssjukhuset, Chalmers, Volvo Lundby och Volvo Torslanda. Färdsätt: bil och\nkollektivtrafik. Tidsintervaller: 15, 30, 45 och 60 min. Utgångspunkten för analysen är boende\ni Kungsbacka kommun. Det vore bra om det gick att belysa befolkningstätheten också.",
+  "ursprung": {
+    "typ": "kommun",
+    "kod": "1384",
+    "namn": "Kungsbacka kommun",
+    "ruta": 250,
+    "modell": "v2"
+  },
+  "mal": [
+    {
+      "id": "goteborg-c",
+      "namn": "Göteborg C",
+      "lat": 57.7086,
+      "lon": 11.9737
+    },
+    {
+      "id": "kungsbacka-c",
+      "namn": "Kungsbacka C",
+      "lat": 57.4897,
+      "lon": 12.0796
+    },
+    {
+      "id": "sahlgrenska",
+      "namn": "Sahlgrenska universitetssjukhuset",
+      "lat": 57.6836,
+      "lon": 11.9609
+    },
+    {
+      "id": "chalmers",
+      "namn": "Chalmers",
+      "lat": 57.69,
+      "lon": 11.9725
+    },
+    {
+      "id": "volvo-lundby",
+      "namn": "Volvo Lundby",
+      "lat": 57.717,
+      "lon": 11.9215
+    },
+    {
+      "id": "volvo-torslanda",
+      "namn": "Volvo Torslanda",
+      "lat": 57.7284,
+      "lon": 11.8614
+    }
+  ],
+  "fardsatt": ["TRANSIT", "CAR"],
+  "cutoffs": [15, 30, 45, 60],
+  "max_restid": 120,
+  "ruta": 250,
+  "befolkning": 86232,
+  "rutor": 3767,
+  "analysdag": "2026-11-17",
+  "avresa": "07:00",
+  "fonster": 120,
+  "percentiler": [1, 50],
+  "huvudpercentil": 1,
+  "max_gang": 60,
+  "max_fordon": 4,
+  "gangfart": 5,
+  "isokron_steg": 500,
+  "gtfs": "2026-10-15",
+  "natverk_byggt": "2026-10-16 08:05:22.073381",
+  "r5r": "2.4.0",
+  "beraknad": "2026-10-16 12:47"
+}

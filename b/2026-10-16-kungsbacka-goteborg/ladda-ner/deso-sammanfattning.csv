@@ -1,0 +1,541 @@
+﻿desokod,namn,mal,fardsatt,pop,median,inom15,inom30,inom45,inom60
+1384C1080,Vallda · C1080,Chalmers,bil (fri trafik),1918,36,0,0,100,100
+1384C1080,Vallda · C1080,Chalmers,"kollektivtrafik, bästa avgången 07-09",1918,72,0,0,0,0
+1384C1080,Vallda · C1080,Göteborg C,bil (fri trafik),1918,38,0,0,100,100
+1384C1080,Vallda · C1080,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1918,58,0,0,0,64.9
+1384C1080,Vallda · C1080,Kungsbacka C,bil (fri trafik),1918,23,0,100,100,100
+1384C1080,Vallda · C1080,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1918,34,0,30.9,98.5,100
+1384C1080,Vallda · C1080,Sahlgrenska universitetssjukhuset,bil (fri trafik),1918,35,0,0,100,100
+1384C1080,Vallda · C1080,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1918,68,0,0,0,2.5
+1384C1080,Vallda · C1080,Volvo Lundby,bil (fri trafik),1918,40,0,0,99.5,100
+1384C1080,Vallda · C1080,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1918,73,0,0,0,0
+1384C1080,Vallda · C1080,Volvo Torslanda,bil (fri trafik),1918,40,0,0,99.5,100
+1384C1080,Vallda · C1080,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1918,89,0,0,0,0
+1384C1050,Västra Onsala · C1050,Chalmers,bil (fri trafik),2439,39,0,0,100,100
+1384C1050,Västra Onsala · C1050,Chalmers,"kollektivtrafik, bästa avgången 07-09",2439,85,0,0,0,0
+1384C1050,Västra Onsala · C1050,Göteborg C,bil (fri trafik),2439,40,0,0,100,100
+1384C1050,Västra Onsala · C1050,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2439,71,0,0,0,22.4
+1384C1050,Västra Onsala · C1050,Kungsbacka C,bil (fri trafik),2439,24,0,100,100,100
+1384C1050,Västra Onsala · C1050,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2439,48,0,1.6,48.8,89.8
+1384C1050,Västra Onsala · C1050,Sahlgrenska universitetssjukhuset,bil (fri trafik),2439,38,0,0,100,100
+1384C1050,Västra Onsala · C1050,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2439,82,0,0,0,0
+1384C1050,Västra Onsala · C1050,Volvo Lundby,bil (fri trafik),2439,42,0,0,99,100
+1384C1050,Västra Onsala · C1050,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2439,86,0,0,0,0
+1384C1050,Västra Onsala · C1050,Volvo Torslanda,bil (fri trafik),2439,43,0,0,89.6,100
+1384C1050,Västra Onsala · C1050,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2439,102,0,0,0,0
+1384C1290,Släp västra · C1290,Chalmers,bil (fri trafik),2219,27,0,89.6,100,100
+1384C1290,Släp västra · C1290,Chalmers,"kollektivtrafik, bästa avgången 07-09",2219,51,0,0,0,76.1
+1384C1290,Släp västra · C1290,Göteborg C,bil (fri trafik),2219,32,0,16.5,100,100
+1384C1290,Släp västra · C1290,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2219,56,0,0,0,64.3
+1384C1290,Släp västra · C1290,Kungsbacka C,bil (fri trafik),2219,25,0,100,100,100
+1384C1290,Släp västra · C1290,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2219,48,0,0,30.2,78.9
+1384C1290,Släp västra · C1290,Sahlgrenska universitetssjukhuset,bil (fri trafik),2219,26,0,100,100,100
+1384C1290,Släp västra · C1290,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2219,46,0,0,48.7,81.5
+1384C1290,Släp västra · C1290,Volvo Lundby,bil (fri trafik),2219,31,0,47.3,100,100
+1384C1290,Släp västra · C1290,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2219,63,0,0,0,30.2
+1384C1290,Släp västra · C1290,Volvo Torslanda,bil (fri trafik),2219,30,0,50.3,100,100
+1384C1290,Släp västra · C1290,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2219,61,0,0,0,48.7
+1384C1240,Släp östra · C1240,Chalmers,bil (fri trafik),1838,26,0,96.8,100,100
+1384C1240,Släp östra · C1240,Chalmers,"kollektivtrafik, bästa avgången 07-09",1838,65,0,0,0,6.2
+1384C1240,Släp östra · C1240,Göteborg C,bil (fri trafik),1838,31,0,39.9,100,100
+1384C1240,Släp östra · C1240,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1838,51,0,0,1.7,92.7
+1384C1240,Släp östra · C1240,Kungsbacka C,bil (fri trafik),1838,17,12.8,100,100,100
+1384C1240,Släp östra · C1240,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1838,29,0,65,98.2,100
+1384C1240,Släp östra · C1240,Sahlgrenska universitetssjukhuset,bil (fri trafik),1838,25,0,98.3,100,100
+1384C1240,Släp östra · C1240,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1838,60,0,0,0,55.3
+1384C1240,Släp östra · C1240,Volvo Lundby,bil (fri trafik),1838,30,0,71.8,100,100
+1384C1240,Släp östra · C1240,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1838,67,0,0,0,1.4
+1384C1240,Släp östra · C1240,Volvo Torslanda,bil (fri trafik),1838,29,0,75.2,100,100
+1384C1240,Släp östra · C1240,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1838,75,0,0,0,0
+1384C1090,Vallda · C1090,Chalmers,bil (fri trafik),1647,31,0,46.8,100,100
+1384C1090,Vallda · C1090,Chalmers,"kollektivtrafik, bästa avgången 07-09",1647,69,0,0,0,23.3
+1384C1090,Vallda · C1090,Göteborg C,bil (fri trafik),1647,32,0,44.1,100,100
+1384C1090,Vallda · C1090,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1647,55,0,0,20.5,66.3
+1384C1090,Vallda · C1090,Kungsbacka C,bil (fri trafik),1647,17,46.6,100,100,100
+1384C1090,Vallda · C1090,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1647,32,5.8,38.8,86.4,90.6
+1384C1090,Vallda · C1090,Sahlgrenska universitetssjukhuset,bil (fri trafik),1647,32,0,41.6,100,100
+1384C1090,Vallda · C1090,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1647,66,0,0,0,29.6
+1384C1090,Vallda · C1090,Volvo Lundby,bil (fri trafik),1647,35,0,20.2,100,100
+1384C1090,Vallda · C1090,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1647,70,0,0,0,19.9
+1384C1090,Vallda · C1090,Volvo Torslanda,bil (fri trafik),1647,36,0,5.6,100,100
+1384C1090,Vallda · C1090,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1647,86,0,0,0,0
+1384C1260,Släp västra · C1260,Chalmers,bil (fri trafik),2343,26,0,100,100,100
+1384C1260,Släp västra · C1260,Chalmers,"kollektivtrafik, bästa avgången 07-09",2343,60,0,0,0,54.7
+1384C1260,Släp västra · C1260,Göteborg C,bil (fri trafik),2343,30,0,50.7,100,100
+1384C1260,Släp västra · C1260,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2343,57,0,0,0,77.4
+1384C1260,Släp västra · C1260,Kungsbacka C,bil (fri trafik),2343,20,0,100,100,100
+1384C1260,Släp västra · C1260,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2343,35,0,6.4,93.3,100
+1384C1260,Släp västra · C1260,Sahlgrenska universitetssjukhuset,bil (fri trafik),2343,25,0,100,100,100
+1384C1260,Släp västra · C1260,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2343,55,0,0,14.6,83.7
+1384C1260,Släp västra · C1260,Volvo Lundby,bil (fri trafik),2343,29,0,69.2,100,100
+1384C1260,Släp västra · C1260,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2343,73,0,0,0,0
+1384C1260,Släp västra · C1260,Volvo Torslanda,bil (fri trafik),2343,29,0,73.9,100,100
+1384C1260,Släp västra · C1260,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2343,69,0,0,0,18.2
+1384C1320,Släp västra · C1320,Chalmers,bil (fri trafik),2086,24,0,100,100,100
+1384C1320,Släp västra · C1320,Chalmers,"kollektivtrafik, bästa avgången 07-09",2086,48,0,0,31.6,100
+1384C1320,Släp västra · C1320,Göteborg C,bil (fri trafik),2086,29,0,75.5,100,100
+1384C1320,Släp västra · C1320,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2086,53,0,0,8.5,90.7
+1384C1320,Släp västra · C1320,Kungsbacka C,bil (fri trafik),2086,23,0,100,100,100
+1384C1320,Släp västra · C1320,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2086,52,0,0,4.8,94.1
+1384C1320,Släp västra · C1320,Sahlgrenska universitetssjukhuset,bil (fri trafik),2086,23,0,100,100,100
+1384C1320,Släp västra · C1320,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2086,43,0,0.6,63.1,100
+1384C1320,Släp västra · C1320,Volvo Lundby,bil (fri trafik),2086,28,0,99.4,100,100
+1384C1320,Släp västra · C1320,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2086,60,0,0,0,53.5
+1384C1320,Släp västra · C1320,Volvo Torslanda,bil (fri trafik),2086,28,0,99.4,100,100
+1384C1320,Släp västra · C1320,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2086,58,0,0,0.6,63.1
+1384C1160,Vallda · C1160,Chalmers,bil (fri trafik),1858,30,0,59.2,100,100
+1384C1160,Vallda · C1160,Chalmers,"kollektivtrafik, bästa avgången 07-09",1858,66,0,0,0,7
+1384C1160,Vallda · C1160,Göteborg C,bil (fri trafik),1858,33,0,9.8,100,100
+1384C1160,Vallda · C1160,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1858,51,0,0,7,94.9
+1384C1160,Vallda · C1160,Kungsbacka C,bil (fri trafik),1858,17,33.4,100,100,100
+1384C1160,Vallda · C1160,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1858,26,0,72.4,100,100
+1384C1160,Vallda · C1160,Sahlgrenska universitetssjukhuset,bil (fri trafik),1858,29,0,67.4,100,100
+1384C1160,Vallda · C1160,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1858,61,0,0,0,44.8
+1384C1160,Vallda · C1160,Volvo Lundby,bil (fri trafik),1858,34,0,1.5,100,100
+1384C1160,Vallda · C1160,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1858,66,0,0,0,7
+1384C1160,Vallda · C1160,Volvo Torslanda,bil (fri trafik),1858,34,0,1.5,100,100
+1384C1160,Vallda · C1160,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1858,82,0,0,0,0
+1384C1010,Västra Onsala · C1010,Chalmers,bil (fri trafik),2173,42,0,0,82.9,100
+1384C1010,Västra Onsala · C1010,Chalmers,"kollektivtrafik, bästa avgången 07-09",2173,83,0,0,0,0
+1384C1010,Västra Onsala · C1010,Göteborg C,bil (fri trafik),2173,43,0,0,79.8,100
+1384C1010,Västra Onsala · C1010,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2173,72,0,0,0,0
+1384C1010,Västra Onsala · C1010,Kungsbacka C,bil (fri trafik),2173,26,0,87,100,100
+1384C1010,Västra Onsala · C1010,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2173,46,0,0,47.6,59.6
+1384C1010,Västra Onsala · C1010,Sahlgrenska universitetssjukhuset,bil (fri trafik),2173,43,0,0,70.7,100
+1384C1010,Västra Onsala · C1010,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2173,82,0,0,0,0
+1384C1010,Västra Onsala · C1010,Volvo Lundby,bil (fri trafik),2173,46,0,0,39.3,100
+1384C1010,Västra Onsala · C1010,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2173,87,0,0,0,0
+1384C1010,Västra Onsala · C1010,Volvo Torslanda,bil (fri trafik),2173,48,0,0,7.4,100
+1384C1010,Västra Onsala · C1010,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2173,103,0,0,0,0
+1384C1270,Släp östra · C1270,Chalmers,bil (fri trafik),2138,25,0,100,100,100
+1384C1270,Släp östra · C1270,Chalmers,"kollektivtrafik, bästa avgången 07-09",2138,55,0,0,10.7,75.5
+1384C1270,Släp östra · C1270,Göteborg C,bil (fri trafik),2138,30,0,65.6,100,100
+1384C1270,Släp östra · C1270,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2138,61,0,0,0,49.3
+1384C1270,Släp östra · C1270,Kungsbacka C,bil (fri trafik),2138,20,0,100,100,100
+1384C1270,Släp östra · C1270,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2138,48,0,0,34.6,72
+1384C1270,Släp östra · C1270,Sahlgrenska universitetssjukhuset,bil (fri trafik),2138,24,0,100,100,100
+1384C1270,Släp östra · C1270,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2138,50,0,0,22.7,86.1
+1384C1270,Släp östra · C1270,Volvo Lundby,bil (fri trafik),2138,28,0,86.4,100,100
+1384C1270,Släp östra · C1270,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2138,70,0,0,0,9.7
+1384C1270,Släp östra · C1270,Volvo Torslanda,bil (fri trafik),2138,28,0,86.4,100,100
+1384C1270,Släp östra · C1270,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2138,64,0,0,0,28.6
+1384C1310,Släp östra · C1310,Chalmers,bil (fri trafik),1933,23,0,100,100,100
+1384C1310,Släp östra · C1310,Chalmers,"kollektivtrafik, bästa avgången 07-09",1933,43,0,0,79.2,100
+1384C1310,Släp östra · C1310,Göteborg C,bil (fri trafik),1933,27,0,100,100,100
+1384C1310,Släp östra · C1310,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1933,48,0,0,12,100
+1384C1310,Släp östra · C1310,Kungsbacka C,bil (fri trafik),1933,21,0,100,100,100
+1384C1310,Släp östra · C1310,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1933,44,0,0,66.4,100
+1384C1310,Släp östra · C1310,Sahlgrenska universitetssjukhuset,bil (fri trafik),1933,22,0,100,100,100
+1384C1310,Släp östra · C1310,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1933,38,0,4.7,98.2,100
+1384C1310,Släp östra · C1310,Volvo Lundby,bil (fri trafik),1933,26,0,100,100,100
+1384C1310,Släp östra · C1310,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1933,55,0,0,1.9,96.6
+1384C1310,Släp östra · C1310,Volvo Torslanda,bil (fri trafik),1933,26,0,100,100,100
+1384C1310,Släp östra · C1310,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1933,53,0,0,4.7,98.9
+1384C1120,Vallda · C1120,Chalmers,bil (fri trafik),2023,31,0,46.2,100,100
+1384C1120,Vallda · C1120,Chalmers,"kollektivtrafik, bästa avgången 07-09",2023,60,0,0,0,52.6
+1384C1120,Vallda · C1120,Göteborg C,bil (fri trafik),2023,33,0,18,100,100
+1384C1120,Vallda · C1120,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2023,46,0,0,49.3,90.1
+1384C1120,Vallda · C1120,Kungsbacka C,bil (fri trafik),2023,17,22.8,100,100,100
+1384C1120,Vallda · C1120,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2023,21,0.6,83.9,95.4,100
+1384C1120,Vallda · C1120,Sahlgrenska universitetssjukhuset,bil (fri trafik),2023,30,0,84.8,100,100
+1384C1120,Vallda · C1120,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2023,57,0,0,0,77.6
+1384C1120,Vallda · C1120,Volvo Lundby,bil (fri trafik),2023,34,0,4.8,100,100
+1384C1120,Vallda · C1120,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2023,61,0,0,0,49.2
+1384C1120,Vallda · C1120,Volvo Torslanda,bil (fri trafik),2023,34,0,4.8,100,100
+1384C1120,Vallda · C1120,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2023,77,0,0,0,0
+1384C1030,Östra Onsala · C1030,Chalmers,bil (fri trafik),1960,39,0,0,100,100
+1384C1030,Östra Onsala · C1030,Chalmers,"kollektivtrafik, bästa avgången 07-09",1960,76,0,0,0,0
+1384C1030,Östra Onsala · C1030,Göteborg C,bil (fri trafik),1960,40,0,0,100,100
+1384C1030,Östra Onsala · C1030,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1960,65,0,0,0,16.4
+1384C1030,Östra Onsala · C1030,Kungsbacka C,bil (fri trafik),1960,23,0,100,100,100
+1384C1030,Östra Onsala · C1030,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1960,40,0,0,85.6,100
+1384C1030,Östra Onsala · C1030,Sahlgrenska universitetssjukhuset,bil (fri trafik),1960,41,0,0,100,100
+1384C1030,Östra Onsala · C1030,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1960,75,0,0,0,0
+1384C1030,Östra Onsala · C1030,Volvo Lundby,bil (fri trafik),1960,43,0,0,95.6,100
+1384C1030,Östra Onsala · C1030,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1960,80,0,0,0,0
+1384C1030,Östra Onsala · C1030,Volvo Torslanda,bil (fri trafik),1960,46,0,0,38.5,100
+1384C1030,Östra Onsala · C1030,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1960,96,0,0,0,0
+1384C1020,Västra Onsala · C1020,Chalmers,bil (fri trafik),2275,38,0,0,97.9,100
+1384C1020,Västra Onsala · C1020,Chalmers,"kollektivtrafik, bästa avgången 07-09",2275,76,0,0,0,0
+1384C1020,Västra Onsala · C1020,Göteborg C,bil (fri trafik),2275,39,0,0,96,100
+1384C1020,Västra Onsala · C1020,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2275,64,0,0,0,26.9
+1384C1020,Västra Onsala · C1020,Kungsbacka C,bil (fri trafik),2275,23,0,100,100,100
+1384C1020,Västra Onsala · C1020,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2275,40,0,6.2,62.4,89.8
+1384C1020,Västra Onsala · C1020,Sahlgrenska universitetssjukhuset,bil (fri trafik),2275,40,0,0,76,100
+1384C1020,Västra Onsala · C1020,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2275,74,0,0,0,0
+1384C1020,Västra Onsala · C1020,Volvo Lundby,bil (fri trafik),2275,42,0,0,67.5,100
+1384C1020,Västra Onsala · C1020,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2275,79,0,0,0,0
+1384C1020,Västra Onsala · C1020,Volvo Torslanda,bil (fri trafik),2275,46,0,0,47.3,100
+1384C1020,Västra Onsala · C1020,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2275,95,0,0,0,0
+1384C1040,Östra Onsala · C1040,Chalmers,bil (fri trafik),2066,34,0,0,100,100
+1384C1040,Östra Onsala · C1040,Chalmers,"kollektivtrafik, bästa avgången 07-09",2066,68,0,0,0,5.7
+1384C1040,Östra Onsala · C1040,Göteborg C,bil (fri trafik),2066,35,0,0,100,100
+1384C1040,Östra Onsala · C1040,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2066,55,0,0,0,87.5
+1384C1040,Östra Onsala · C1040,Kungsbacka C,bil (fri trafik),2066,19,0,100,100,100
+1384C1040,Östra Onsala · C1040,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2066,32,0,46.5,100,100
+1384C1040,Östra Onsala · C1040,Sahlgrenska universitetssjukhuset,bil (fri trafik),2066,37,0,0,100,100
+1384C1040,Östra Onsala · C1040,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2066,66,0,0,0,10.6
+1384C1040,Östra Onsala · C1040,Volvo Lundby,bil (fri trafik),2066,39,0,0,100,100
+1384C1040,Östra Onsala · C1040,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2066,70,0,0,0,0
+1384C1040,Östra Onsala · C1040,Volvo Torslanda,bil (fri trafik),2066,42,0,0,100,100
+1384C1040,Östra Onsala · C1040,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2066,86,0,0,0,0
+1384C1060,Östra Onsala · C1060,Chalmers,bil (fri trafik),2060,33,0,9.8,100,100
+1384C1060,Östra Onsala · C1060,Chalmers,"kollektivtrafik, bästa avgången 07-09",2060,65,0,0,0,8.4
+1384C1060,Östra Onsala · C1060,Göteborg C,bil (fri trafik),2060,33,0,6.3,100,100
+1384C1060,Östra Onsala · C1060,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2060,52,0,0,0.7,77.3
+1384C1060,Östra Onsala · C1060,Kungsbacka C,bil (fri trafik),2060,17,9.8,100,100,100
+1384C1060,Östra Onsala · C1060,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2060,29,0,63.2,100,100
+1384C1060,Östra Onsala · C1060,Sahlgrenska universitetssjukhuset,bil (fri trafik),2060,35,0,0.7,100,100
+1384C1060,Östra Onsala · C1060,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2060,63,0,0,0,19.1
+1384C1060,Östra Onsala · C1060,Volvo Lundby,bil (fri trafik),2060,37,0,0,100,100
+1384C1060,Östra Onsala · C1060,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2060,67,0,0,0,0.7
+1384C1060,Östra Onsala · C1060,Volvo Torslanda,bil (fri trafik),2060,40,0,0,100,100
+1384C1060,Östra Onsala · C1060,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2060,83,0,0,0,0
+1384C1251,Björkris-Voxlöv · C1251,Chalmers,bil (fri trafik),2013,29,0,94.4,100,100
+1384C1251,Björkris-Voxlöv · C1251,Chalmers,"kollektivtrafik, bästa avgången 07-09",2013,43,0,0,75.9,94.6
+1384C1251,Björkris-Voxlöv · C1251,Göteborg C,bil (fri trafik),2013,30,0,94.4,100,100
+1384C1251,Björkris-Voxlöv · C1251,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2013,38,0,1,89.8,96.4
+1384C1251,Björkris-Voxlöv · C1251,Kungsbacka C,bil (fri trafik),2013,8,99.1,100,100,100
+1384C1251,Björkris-Voxlöv · C1251,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2013,15,68.1,93.2,97.8,99.1
+1384C1251,Björkris-Voxlöv · C1251,Sahlgrenska universitetssjukhuset,bil (fri trafik),2013,31,0,22.6,100,100
+1384C1251,Björkris-Voxlöv · C1251,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2013,46,0,0,37,94.2
+1384C1251,Björkris-Voxlöv · C1251,Volvo Lundby,bil (fri trafik),2013,33,0,9.7,100,100
+1384C1251,Björkris-Voxlöv · C1251,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2013,53,0,0,1,89.4
+1384C1251,Björkris-Voxlöv · C1251,Volvo Torslanda,bil (fri trafik),2013,36,0,1.7,100,100
+1384C1251,Björkris-Voxlöv · C1251,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2013,67,0,0,0,1
+1384C1070,Östra Onsala · C1070,Chalmers,bil (fri trafik),2502,29,0,74.2,100,100
+1384C1070,Östra Onsala · C1070,Chalmers,"kollektivtrafik, bästa avgången 07-09",2502,60,0,0,0,71.2
+1384C1070,Östra Onsala · C1070,Göteborg C,bil (fri trafik),2502,29,0,70.2,100,100
+1384C1070,Östra Onsala · C1070,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2502,47,0,0,34.8,100
+1384C1070,Östra Onsala · C1070,Kungsbacka C,bil (fri trafik),2502,13,91.6,100,100,100
+1384C1070,Östra Onsala · C1070,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2502,24,1.8,99.2,100,100
+1384C1070,Östra Onsala · C1070,Sahlgrenska universitetssjukhuset,bil (fri trafik),2502,31,0,42.8,100,100
+1384C1070,Östra Onsala · C1070,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2502,57,0,0,0,82.8
+1384C1070,Östra Onsala · C1070,Volvo Lundby,bil (fri trafik),2502,33,0,1.8,100,100
+1384C1070,Östra Onsala · C1070,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2502,62,0,0,0,34.8
+1384C1070,Östra Onsala · C1070,Volvo Torslanda,bil (fri trafik),2502,36,0,0,100,100
+1384C1070,Östra Onsala · C1070,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2502,78,0,0,0,0
+1384C1220,Kungsbacka norra · C1220,Chalmers,bil (fri trafik),1914,25,0,100,100,100
+1384C1220,Kungsbacka norra · C1220,Chalmers,"kollektivtrafik, bästa avgången 07-09",1914,46,0,0,34.6,100
+1384C1220,Kungsbacka norra · C1220,Göteborg C,bil (fri trafik),1914,26,0,78.2,100,100
+1384C1220,Kungsbacka norra · C1220,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1914,39,0,21.8,100,100
+1384C1220,Kungsbacka norra · C1220,Kungsbacka C,bil (fri trafik),1914,9,100,100,100,100
+1384C1220,Kungsbacka norra · C1220,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1914,17,33.4,100,100,100
+1384C1220,Kungsbacka norra · C1220,Sahlgrenska universitetssjukhuset,bil (fri trafik),1914,27,0,78.2,100,100
+1384C1220,Kungsbacka norra · C1220,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1914,49,0,0,21.8,100
+1384C1220,Kungsbacka norra · C1220,Volvo Lundby,bil (fri trafik),1914,29,0,76.2,100,100
+1384C1220,Kungsbacka norra · C1220,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1914,55,0,0,0,100
+1384C1220,Kungsbacka norra · C1220,Volvo Torslanda,bil (fri trafik),1914,32,0,0,100,100
+1384C1220,Kungsbacka norra · C1220,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1914,70,0,0,0,21.8
+1384C1190,Tingberget · C1190,Chalmers,bil (fri trafik),1803,29,0,100,100,100
+1384C1190,Tingberget · C1190,Chalmers,"kollektivtrafik, bästa avgången 07-09",1803,46,0,0,31.4,100
+1384C1190,Tingberget · C1190,Göteborg C,bil (fri trafik),1803,30,0,96.7,100,100
+1384C1190,Tingberget · C1190,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1803,32,0,5.2,100,100
+1384C1190,Tingberget · C1190,Kungsbacka C,bil (fri trafik),1803,5,100,100,100,100
+1384C1190,Tingberget · C1190,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1803,9,100,100,100,100
+1384C1190,Tingberget · C1190,Sahlgrenska universitetssjukhuset,bil (fri trafik),1803,31,0,6.8,100,100
+1384C1190,Tingberget · C1190,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1803,43,0,0,80.4,100
+1384C1190,Tingberget · C1190,Volvo Lundby,bil (fri trafik),1803,33,0,0,100,100
+1384C1190,Tingberget · C1190,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1803,49,0,0,5.2,100
+1384C1190,Tingberget · C1190,Volvo Torslanda,bil (fri trafik),1803,37,0,0,100,100
+1384C1190,Tingberget · C1190,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1803,60,0,0,0,53.7
+1384C1110,Kungsbacka södra · C1110,Chalmers,bil (fri trafik),2711,29,0,100,100,100
+1384C1110,Kungsbacka södra · C1110,Chalmers,"kollektivtrafik, bästa avgången 07-09",2711,51,0,0,0,100
+1384C1110,Kungsbacka södra · C1110,Göteborg C,bil (fri trafik),2711,29,0,100,100,100
+1384C1110,Kungsbacka södra · C1110,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2711,39,0,0,99.4,100
+1384C1110,Kungsbacka södra · C1110,Kungsbacka C,bil (fri trafik),2711,8,100,100,100,100
+1384C1110,Kungsbacka södra · C1110,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2711,15,52.4,100,100,100
+1384C1110,Kungsbacka södra · C1110,Sahlgrenska universitetssjukhuset,bil (fri trafik),2711,31,0,3.5,100,100
+1384C1110,Kungsbacka södra · C1110,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2711,50,0,0,0,100
+1384C1110,Kungsbacka södra · C1110,Volvo Lundby,bil (fri trafik),2711,33,0,0,100,100
+1384C1110,Kungsbacka södra · C1110,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2711,55,0,0,0,99.2
+1384C1110,Kungsbacka södra · C1110,Volvo Torslanda,bil (fri trafik),2711,36,0,0,100,100
+1384C1110,Kungsbacka södra · C1110,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2711,70,0,0,0,0
+1384C1210,Tingberget · C1210,Chalmers,bil (fri trafik),2083,28,0,88.2,100,100
+1384C1210,Tingberget · C1210,Chalmers,"kollektivtrafik, bästa avgången 07-09",2083,48,0,0,21.4,100
+1384C1210,Tingberget · C1210,Göteborg C,bil (fri trafik),2083,28,0,88.2,100,100
+1384C1210,Tingberget · C1210,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2083,37,0,0,100,100
+1384C1210,Tingberget · C1210,Kungsbacka C,bil (fri trafik),2083,7,100,100,100,100
+1384C1210,Tingberget · C1210,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2083,15,55.7,100,100,100
+1384C1210,Tingberget · C1210,Sahlgrenska universitetssjukhuset,bil (fri trafik),2083,30,0,88.2,100,100
+1384C1210,Tingberget · C1210,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2083,48,0,0,11.8,100
+1384C1210,Tingberget · C1210,Volvo Lundby,bil (fri trafik),2083,32,0,18.5,100,100
+1384C1210,Tingberget · C1210,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2083,53,0,0,0,100
+1384C1210,Tingberget · C1210,Volvo Torslanda,bil (fri trafik),2083,35,0,0,100,100
+1384C1210,Tingberget · C1210,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2083,68,0,0,0,0
+1384B2050,Ölmanäs · B2050,Chalmers,bil (fri trafik),2055,40,0,0,100,100
+1384B2050,Ölmanäs · B2050,Chalmers,"kollektivtrafik, bästa avgången 07-09",2055,70,0,0,0,0
+1384B2050,Ölmanäs · B2050,Göteborg C,bil (fri trafik),2055,41,0,0,100,100
+1384B2050,Ölmanäs · B2050,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2055,57,0,0,0,77.6
+1384B2050,Ölmanäs · B2050,Kungsbacka C,bil (fri trafik),2055,24,0,100,100,100
+1384B2050,Ölmanäs · B2050,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2055,36,0,4.2,99.7,100
+1384B2050,Ölmanäs · B2050,Sahlgrenska universitetssjukhuset,bil (fri trafik),2055,42,0,0,99.6,100
+1384B2050,Ölmanäs · B2050,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2055,72,0,0,0,3.1
+1384B2050,Ölmanäs · B2050,Volvo Lundby,bil (fri trafik),2055,44,0,0,86.5,100
+1384B2050,Ölmanäs · B2050,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2055,75,0,0,0,0
+1384B2050,Ölmanäs · B2050,Volvo Torslanda,bil (fri trafik),2055,47,0,0,10.2,100
+1384B2050,Ölmanäs · B2050,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2055,91,0,0,0,0
+1384C1150,Kungsbacka Innerstaden · C1150,Chalmers,bil (fri trafik),1148,30,0,72,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Chalmers,"kollektivtrafik, bästa avgången 07-09",1148,48,0,0,14.9,100
+1384C1150,Kungsbacka Innerstaden · C1150,Göteborg C,bil (fri trafik),1148,30,0,57.9,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1148,37,0,0,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Kungsbacka C,bil (fri trafik),1148,5,100,100,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1148,12,100,100,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Sahlgrenska universitetssjukhuset,bil (fri trafik),1148,32,0,0,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1148,48,0,0,16.8,100
+1384C1150,Kungsbacka Innerstaden · C1150,Volvo Lundby,bil (fri trafik),1148,34,0,0,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1148,53,0,0,0,100
+1384C1150,Kungsbacka Innerstaden · C1150,Volvo Torslanda,bil (fri trafik),1148,37,0,0,100,100
+1384C1150,Kungsbacka Innerstaden · C1150,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1148,68,0,0,0,0
+1384A0030,Fjärås omland · A0030,Chalmers,bil (fri trafik),1732,36,0,0,100,100
+1384A0030,Fjärås omland · A0030,Chalmers,"kollektivtrafik, bästa avgången 07-09",1732,77,0,0,0,6.1
+1384A0030,Fjärås omland · A0030,Göteborg C,bil (fri trafik),1732,36,0,0,100,100
+1384A0030,Fjärås omland · A0030,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1732,61,0,0,6.2,49.6
+1384A0030,Fjärås omland · A0030,Kungsbacka C,bil (fri trafik),1732,16,36.1,100,100,100
+1384A0030,Fjärås omland · A0030,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1732,37,2.9,26.1,77.3,99.8
+1384A0030,Fjärås omland · A0030,Sahlgrenska universitetssjukhuset,bil (fri trafik),1732,38,0,0,100,100
+1384A0030,Fjärås omland · A0030,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1732,71,0,0,0,10.6
+1384A0030,Fjärås omland · A0030,Volvo Lundby,bil (fri trafik),1732,40,0,0,100,100
+1384A0030,Fjärås omland · A0030,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1732,77,0,0,0,5.7
+1384A0030,Fjärås omland · A0030,Volvo Torslanda,bil (fri trafik),1732,43,0,0,78.1,100
+1384A0030,Fjärås omland · A0030,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1732,92,0,0,0,0
+1384C1170,Kungsbacka Innerstaden · C1170,Chalmers,bil (fri trafik),2028,32,0,19.7,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Chalmers,"kollektivtrafik, bästa avgången 07-09",2028,40,0,0,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Göteborg C,bil (fri trafik),2028,32,0,16.2,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2028,28,0,56,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Kungsbacka C,bil (fri trafik),2028,4,100,100,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2028,5,100,100,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Sahlgrenska universitetssjukhuset,bil (fri trafik),2028,34,0,0,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2028,39,0,0,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Volvo Lundby,bil (fri trafik),2028,36,0,0,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2028,45,0,0,56,100
+1384C1170,Kungsbacka Innerstaden · C1170,Volvo Torslanda,bil (fri trafik),2028,39,0,0,100,100
+1384C1170,Kungsbacka Innerstaden · C1170,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2028,57,0,0,0,100
+1384C1180,Kungsbacka Innerstaden · C1180,Chalmers,bil (fri trafik),1654,33,0,20.4,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Chalmers,"kollektivtrafik, bästa avgången 07-09",1654,41,0,0,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Göteborg C,bil (fri trafik),1654,33,0,18.2,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1654,29,0,59.1,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Kungsbacka C,bil (fri trafik),1654,5,100,100,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1654,6,100,100,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Sahlgrenska universitetssjukhuset,bil (fri trafik),1654,35,0,0,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1654,40,0,0,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Volvo Lundby,bil (fri trafik),1654,37,0,0,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1654,46,0,0,37.5,100
+1384C1180,Kungsbacka Innerstaden · C1180,Volvo Torslanda,bil (fri trafik),1654,40,0,0,100,100
+1384C1180,Kungsbacka Innerstaden · C1180,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1654,58,0,0,0,84.3
+1384C1100,Kungsbacka södra · C1100,Chalmers,bil (fri trafik),1576,33,0,8.2,100,100
+1384C1100,Kungsbacka södra · C1100,Chalmers,"kollektivtrafik, bästa avgången 07-09",1576,49,0,0,10.2,99.3
+1384C1100,Kungsbacka södra · C1100,Göteborg C,bil (fri trafik),1576,34,0,0,100,100
+1384C1100,Kungsbacka södra · C1100,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1576,34,0,10.2,99.3,100
+1384C1100,Kungsbacka södra · C1100,Kungsbacka C,bil (fri trafik),1576,7,100,100,100,100
+1384C1100,Kungsbacka södra · C1100,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1576,11,96.8,100,100,100
+1384C1100,Kungsbacka södra · C1100,Sahlgrenska universitetssjukhuset,bil (fri trafik),1576,35,0,0,100,100
+1384C1100,Kungsbacka södra · C1100,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1576,45,0,0,60.5,100
+1384C1100,Kungsbacka södra · C1100,Volvo Lundby,bil (fri trafik),1576,37,0,0,100,100
+1384C1100,Kungsbacka södra · C1100,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1576,51,0,0,0,98.9
+1384C1100,Kungsbacka södra · C1100,Volvo Torslanda,bil (fri trafik),1576,40,0,0,100,100
+1384C1100,Kungsbacka södra · C1100,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1576,63,0,0,0,13.9
+1384C1200,Kungsbacka norra · C1200,Chalmers,bil (fri trafik),1623,35,0,5.8,100,100
+1384C1200,Kungsbacka norra · C1200,Chalmers,"kollektivtrafik, bästa avgången 07-09",1623,53,0,0,7.6,100
+1384C1200,Kungsbacka norra · C1200,Göteborg C,bil (fri trafik),1623,35,0,0,100,100
+1384C1200,Kungsbacka norra · C1200,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1623,38,0,0,100,100
+1384C1200,Kungsbacka norra · C1200,Kungsbacka C,bil (fri trafik),1623,7,100,100,100,100
+1384C1200,Kungsbacka norra · C1200,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1623,15,52.4,100,100,100
+1384C1200,Kungsbacka norra · C1200,Sahlgrenska universitetssjukhuset,bil (fri trafik),1623,37,0,0,100,100
+1384C1200,Kungsbacka norra · C1200,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1623,48,0,0,7.6,100
+1384C1200,Kungsbacka norra · C1200,Volvo Lundby,bil (fri trafik),1623,39,0,0,100,100
+1384C1200,Kungsbacka norra · C1200,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1623,54,0,0,0,100
+1384C1200,Kungsbacka norra · C1200,Volvo Torslanda,bil (fri trafik),1623,42,0,0,100,100
+1384C1200,Kungsbacka norra · C1200,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1623,69,0,0,0,0
+1384C1230,Kungsbacka norra · C1230,Chalmers,bil (fri trafik),1611,29,0,62.4,100,100
+1384C1230,Kungsbacka norra · C1230,Chalmers,"kollektivtrafik, bästa avgången 07-09",1611,47,0,0,23.7,100
+1384C1230,Kungsbacka norra · C1230,Göteborg C,bil (fri trafik),1611,30,0,62.4,100,100
+1384C1230,Kungsbacka norra · C1230,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1611,39,0,0,100,100
+1384C1230,Kungsbacka norra · C1230,Kungsbacka C,bil (fri trafik),1611,7,100,100,100,100
+1384C1230,Kungsbacka norra · C1230,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1611,17,17.6,100,100,100
+1384C1230,Kungsbacka norra · C1230,Sahlgrenska universitetssjukhuset,bil (fri trafik),1611,31,0,11.2,100,100
+1384C1230,Kungsbacka norra · C1230,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1611,49,0,0,0,100
+1384C1230,Kungsbacka norra · C1230,Volvo Lundby,bil (fri trafik),1611,33,0,0,100,100
+1384C1230,Kungsbacka norra · C1230,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1611,55,0,0,0,100
+1384C1230,Kungsbacka norra · C1230,Volvo Torslanda,bil (fri trafik),1611,37,0,0,100,100
+1384C1230,Kungsbacka norra · C1230,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1611,70,0,0,0,0
+1384C1140,Hålabäck-Hammerö · C1140,Chalmers,bil (fri trafik),1966,32,0,0.5,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Chalmers,"kollektivtrafik, bästa avgången 07-09",1966,47,0,0,31.8,100
+1384C1140,Hålabäck-Hammerö · C1140,Göteborg C,bil (fri trafik),1966,33,0,0.5,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1966,33,0,0.5,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Kungsbacka C,bil (fri trafik),1966,5,100,100,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1966,10,100,100,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Sahlgrenska universitetssjukhuset,bil (fri trafik),1966,35,0,0,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1966,44,0,0,55.9,100
+1384C1140,Hålabäck-Hammerö · C1140,Volvo Lundby,bil (fri trafik),1966,37,0,0,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1966,50,0,0,0,100
+1384C1140,Hålabäck-Hammerö · C1140,Volvo Torslanda,bil (fri trafik),1966,40,0,0,100,100
+1384C1140,Hålabäck-Hammerö · C1140,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1966,62,0,0,0,14.6
+1384C1130,Hålabäck-Hammerö · C1130,Chalmers,bil (fri trafik),1665,33,0,0,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Chalmers,"kollektivtrafik, bästa avgången 07-09",1665,48,0,0,0,100
+1384C1130,Hålabäck-Hammerö · C1130,Göteborg C,bil (fri trafik),1665,34,0,0,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1665,33,0,0,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Kungsbacka C,bil (fri trafik),1665,6,100,100,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1665,11,93.8,100,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Sahlgrenska universitetssjukhuset,bil (fri trafik),1665,35,0,0,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1665,44,0,0,60.5,100
+1384C1130,Hålabäck-Hammerö · C1130,Volvo Lundby,bil (fri trafik),1665,37,0,0,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1665,50,0,0,0,100
+1384C1130,Hålabäck-Hammerö · C1130,Volvo Torslanda,bil (fri trafik),1665,41,0,0,100,100
+1384C1130,Hålabäck-Hammerö · C1130,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1665,62,0,0,0,0
+1384C1252,Björkris-Voxlöv · C1252,Chalmers,bil (fri trafik),1370,32,0,9.1,100,100
+1384C1252,Björkris-Voxlöv · C1252,Chalmers,"kollektivtrafik, bästa avgången 07-09",1370,51,0,0,10.1,100
+1384C1252,Björkris-Voxlöv · C1252,Göteborg C,bil (fri trafik),1370,33,0,8,100,100
+1384C1252,Björkris-Voxlöv · C1252,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1370,36,0,0,99.8,100
+1384C1252,Björkris-Voxlöv · C1252,Kungsbacka C,bil (fri trafik),1370,8,100,100,100,100
+1384C1252,Björkris-Voxlöv · C1252,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1370,14,90.2,100,100,100
+1384C1252,Björkris-Voxlöv · C1252,Sahlgrenska universitetssjukhuset,bil (fri trafik),1370,34,0,0,100,100
+1384C1252,Björkris-Voxlöv · C1252,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1370,47,0,0,17.2,100
+1384C1252,Björkris-Voxlöv · C1252,Volvo Lundby,bil (fri trafik),1370,36,0,0,100,100
+1384C1252,Björkris-Voxlöv · C1252,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1370,53,0,0,0,99.2
+1384C1252,Björkris-Voxlöv · C1252,Volvo Torslanda,bil (fri trafik),1370,40,0,0,100,100
+1384C1252,Björkris-Voxlöv · C1252,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1370,67,0,0,0,0
+1384B2040,Åsa · B2040,Chalmers,bil (fri trafik),2404,39,0,0,100,100
+1384B2040,Åsa · B2040,Chalmers,"kollektivtrafik, bästa avgången 07-09",2404,63,0,0,0,11.3
+1384B2040,Åsa · B2040,Göteborg C,bil (fri trafik),2404,40,0,0,100,100
+1384B2040,Åsa · B2040,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2404,48,0,0,11.3,100
+1384B2040,Åsa · B2040,Kungsbacka C,bil (fri trafik),2404,23,0,100,100,100
+1384B2040,Åsa · B2040,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2404,28,0,82.7,100,100
+1384B2040,Åsa · B2040,Sahlgrenska universitetssjukhuset,bil (fri trafik),2404,41,0,0,100,100
+1384B2040,Åsa · B2040,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2404,58,0,0,0,82.7
+1384B2040,Åsa · B2040,Volvo Lundby,bil (fri trafik),2404,43,0,0,92.7,100
+1384B2040,Åsa · B2040,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2404,63,0,0,0,11.3
+1384B2040,Åsa · B2040,Volvo Torslanda,bil (fri trafik),2404,46,0,0,24.4,100
+1384B2040,Åsa · B2040,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2404,78,0,0,0,0
+1384B3010,Fjärås · B3010,Chalmers,bil (fri trafik),1382,36,0,2.1,100,100
+1384B3010,Fjärås · B3010,Chalmers,"kollektivtrafik, bästa avgången 07-09",1382,64,0,0,0,34.4
+1384B3010,Fjärås · B3010,Göteborg C,bil (fri trafik),1382,36,0,1,100,100
+1384B3010,Fjärås · B3010,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1382,49,0,0,30.2,90.8
+1384B3010,Fjärås · B3010,Kungsbacka C,bil (fri trafik),1382,13,89.3,100,100,100
+1384B3010,Fjärås · B3010,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1382,25,4.6,68.9,97.7,100
+1384B3010,Fjärås · B3010,Sahlgrenska universitetssjukhuset,bil (fri trafik),1382,38,0,0,100,100
+1384B3010,Fjärås · B3010,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1382,59,0,0,0,55
+1384B3010,Fjärås · B3010,Volvo Lundby,bil (fri trafik),1382,40,0,0,100,100
+1384B3010,Fjärås · B3010,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1382,65,0,0,0,22.8
+1384B3010,Fjärås · B3010,Volvo Torslanda,bil (fri trafik),1382,43,0,0,83.3,100
+1384B3010,Fjärås · B3010,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1382,80,0,0,0,0
+1384C1280,Anneberg-Älvsåker · C1280,Chalmers,bil (fri trafik),2088,27,0,93.5,100,100
+1384C1280,Anneberg-Älvsåker · C1280,Chalmers,"kollektivtrafik, bästa avgången 07-09",2088,38,0,0.6,80.1,95.2
+1384C1280,Anneberg-Älvsåker · C1280,Göteborg C,bil (fri trafik),2088,28,0,92.2,100,100
+1384C1280,Anneberg-Älvsåker · C1280,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2088,33,0,22.2,88.9,98.9
+1384C1280,Anneberg-Älvsåker · C1280,Kungsbacka C,bil (fri trafik),2088,13,92.5,100,100,100
+1384C1280,Anneberg-Älvsåker · C1280,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2088,18,18.8,89.8,98.9,100
+1384C1280,Anneberg-Älvsåker · C1280,Sahlgrenska universitetssjukhuset,bil (fri trafik),2088,30,0,77.1,100,100
+1384C1280,Anneberg-Älvsåker · C1280,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2088,41,0,0,75.9,93.5
+1384C1280,Anneberg-Älvsåker · C1280,Volvo Lundby,bil (fri trafik),2088,32,0,10.9,100,100
+1384C1280,Anneberg-Älvsåker · C1280,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2088,50,0,0,18.8,85.1
+1384C1280,Anneberg-Älvsåker · C1280,Volvo Torslanda,bil (fri trafik),2088,35,0,0,100,100
+1384C1280,Anneberg-Älvsåker · C1280,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2088,64,0,0,0,19.2
+1384A0010,Frillesås-Gällinge omland · A0010,Chalmers,bil (fri trafik),1280,41,0,0,97.3,100
+1384A0010,Frillesås-Gällinge omland · A0010,Chalmers,"kollektivtrafik, bästa avgången 07-09",1280,85,0,0,0,0
+1384A0010,Frillesås-Gällinge omland · A0010,Göteborg C,bil (fri trafik),1280,41,0,0,93.7,100
+1384A0010,Frillesås-Gällinge omland · A0010,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1280,70,0,0,0,24.1
+1384A0010,Frillesås-Gällinge omland · A0010,Kungsbacka C,bil (fri trafik),1280,25,0,98.9,100,100
+1384A0010,Frillesås-Gällinge omland · A0010,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1280,47,0,5.4,43.6,92.3
+1384A0010,Frillesås-Gällinge omland · A0010,Sahlgrenska universitetssjukhuset,bil (fri trafik),1280,43,0,0,83.5,100
+1384A0010,Frillesås-Gällinge omland · A0010,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1280,80,0,0,0,2.1
+1384A0010,Frillesås-Gällinge omland · A0010,Volvo Lundby,bil (fri trafik),1280,45,0,0,59.6,100
+1384A0010,Frillesås-Gällinge omland · A0010,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1280,85,0,0,0,0
+1384A0010,Frillesås-Gällinge omland · A0010,Volvo Torslanda,bil (fri trafik),1280,48,0,0,26.6,100
+1384A0010,Frillesås-Gällinge omland · A0010,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1280,101,0,0,0,0
+1384B2030,Åsa · B2030,Chalmers,bil (fri trafik),2335,41,0,0,100,100
+1384B2030,Åsa · B2030,Chalmers,"kollektivtrafik, bästa avgången 07-09",2335,67,0,0,0,20.8
+1384B2030,Åsa · B2030,Göteborg C,bil (fri trafik),2335,42,0,0,100,100
+1384B2030,Åsa · B2030,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2335,52,0,0,20.8,96.5
+1384B2030,Åsa · B2030,Kungsbacka C,bil (fri trafik),2335,25,0,100,100,100
+1384B2030,Åsa · B2030,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2335,33,0,36.3,100,100
+1384B2030,Åsa · B2030,Sahlgrenska universitetssjukhuset,bil (fri trafik),2335,43,0,0,99.4,100
+1384B2030,Åsa · B2030,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2335,62,0,0,0,40
+1384B2030,Åsa · B2030,Volvo Lundby,bil (fri trafik),2335,45,0,0,58.7,100
+1384B2030,Åsa · B2030,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2335,68,0,0,0,20.8
+1384B2030,Åsa · B2030,Volvo Torslanda,bil (fri trafik),2335,49,0,0,7.3,100
+1384B2030,Åsa · B2030,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2335,83,0,0,0,0
+1384A0040,Fjärås omland · A0040,Chalmers,bil (fri trafik),2124,39,0,0,90.2,100
+1384A0040,Fjärås omland · A0040,Chalmers,"kollektivtrafik, bästa avgången 07-09",2124,84,0,0,0,1
+1384A0040,Fjärås omland · A0040,Göteborg C,bil (fri trafik),2124,40,0,0,87.5,100
+1384A0040,Fjärås omland · A0040,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2124,68,0,0,1.2,26.5
+1384A0040,Fjärås omland · A0040,Kungsbacka C,bil (fri trafik),2124,17,43.7,100,100,100
+1384A0040,Fjärås omland · A0040,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2124,45,0,21.5,68,91.2
+1384A0040,Fjärås omland · A0040,Sahlgrenska universitetssjukhuset,bil (fri trafik),2124,41,0,0,80.3,100
+1384A0040,Fjärås omland · A0040,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2124,78,0,0,0,17.1
+1384A0040,Fjärås omland · A0040,Volvo Lundby,bil (fri trafik),2124,43,0,0,71.4,100
+1384A0040,Fjärås omland · A0040,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2124,83,0,0,0,0.5
+1384A0040,Fjärås omland · A0040,Volvo Torslanda,bil (fri trafik),2124,47,0,0,41.2,100
+1384A0040,Fjärås omland · A0040,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2124,100,0,0,0,0
+1384A0050,Anneberg-Älvsåker · A0050,Chalmers,bil (fri trafik),1362,34,0,2.6,100,100
+1384A0050,Anneberg-Älvsåker · A0050,Chalmers,"kollektivtrafik, bästa avgången 07-09",1362,61,0,0,0,49.8
+1384A0050,Anneberg-Älvsåker · A0050,Göteborg C,bil (fri trafik),1362,35,0,0.3,100,100
+1384A0050,Anneberg-Älvsåker · A0050,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1362,53,0,0,17.1,71.8
+1384A0050,Anneberg-Älvsåker · A0050,Kungsbacka C,bil (fri trafik),1362,19,31.9,100,100,100
+1384A0050,Anneberg-Älvsåker · A0050,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1362,36,0,26.8,82.8,96.6
+1384A0050,Anneberg-Älvsåker · A0050,Sahlgrenska universitetssjukhuset,bil (fri trafik),1362,37,0,0,100,100
+1384A0050,Anneberg-Älvsåker · A0050,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1362,62,0,0,0,45.8
+1384A0050,Anneberg-Älvsåker · A0050,Volvo Lundby,bil (fri trafik),1362,38,0,0,99.2,100
+1384A0050,Anneberg-Älvsåker · A0050,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1362,70,0,0,0,9.7
+1384A0050,Anneberg-Älvsåker · A0050,Volvo Torslanda,bil (fri trafik),1362,42,0,0,87.1,100
+1384A0050,Anneberg-Älvsåker · A0050,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1362,88,0,0,0,0
+1384C1300,Anneberg-Älvsåker · C1300,Chalmers,bil (fri trafik),999,31,0,49.4,100,100
+1384C1300,Anneberg-Älvsåker · C1300,Chalmers,"kollektivtrafik, bästa avgången 07-09",999,50,0,0,18.3,92.2
+1384C1300,Anneberg-Älvsåker · C1300,Göteborg C,bil (fri trafik),999,31,0,31.4,100,100
+1384C1300,Anneberg-Älvsåker · C1300,Göteborg C,"kollektivtrafik, bästa avgången 07-09",999,44,0,0,56.4,97.6
+1384C1300,Anneberg-Älvsåker · C1300,Kungsbacka C,bil (fri trafik),999,16,32.8,100,100,100
+1384C1300,Anneberg-Älvsåker · C1300,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",999,28,0,60.7,97.9,100
+1384C1300,Anneberg-Älvsåker · C1300,Sahlgrenska universitetssjukhuset,bil (fri trafik),999,33,0,4.3,100,100
+1384C1300,Anneberg-Älvsåker · C1300,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",999,53,0,0,3.6,87
+1384C1300,Anneberg-Älvsåker · C1300,Volvo Lundby,bil (fri trafik),999,35,0,0,100,100
+1384C1300,Anneberg-Älvsåker · C1300,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",999,62,0,0,0,38.3
+1384C1300,Anneberg-Älvsåker · C1300,Volvo Torslanda,bil (fri trafik),999,38,0,0,100,100
+1384C1300,Anneberg-Älvsåker · C1300,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",999,80,0,0,0,0
+1384B2010,Frillesås · B2010,Chalmers,bil (fri trafik),2137,41,0,0,100,100
+1384B2010,Frillesås · B2010,Chalmers,"kollektivtrafik, bästa avgången 07-09",2137,76,0,0,0,0
+1384B2010,Frillesås · B2010,Göteborg C,bil (fri trafik),2137,42,0,0,100,100
+1384B2010,Frillesås · B2010,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2137,61,0,0,0,48.4
+1384B2010,Frillesås · B2010,Kungsbacka C,bil (fri trafik),2137,26,0,100,100,100
+1384B2010,Frillesås · B2010,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2137,42,0,0,69.5,100
+1384B2010,Frillesås · B2010,Sahlgrenska universitetssjukhuset,bil (fri trafik),2137,43,0,0,99.3,100
+1384B2010,Frillesås · B2010,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2137,71,0,0,0,0
+1384B2010,Frillesås · B2010,Volvo Lundby,bil (fri trafik),2137,45,0,0,50.9,100
+1384B2010,Frillesås · B2010,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2137,77,0,0,0,0
+1384B2010,Frillesås · B2010,Volvo Torslanda,bil (fri trafik),2137,49,0,0,0.6,100
+1384B2010,Frillesås · B2010,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2137,92,0,0,0,0
+1384B2020,Frillesås · B2020,Chalmers,bil (fri trafik),1110,40,0,0,100,100
+1384B2020,Frillesås · B2020,Chalmers,"kollektivtrafik, bästa avgången 07-09",1110,73,0,0,0,0
+1384B2020,Frillesås · B2020,Göteborg C,bil (fri trafik),1110,41,0,0,100,100
+1384B2020,Frillesås · B2020,Göteborg C,"kollektivtrafik, bästa avgången 07-09",1110,58,0,0,0,64.1
+1384B2020,Frillesås · B2020,Kungsbacka C,bil (fri trafik),1110,25,0,100,100,100
+1384B2020,Frillesås · B2020,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",1110,39,0,5.4,85.3,100
+1384B2020,Frillesås · B2020,Sahlgrenska universitetssjukhuset,bil (fri trafik),1110,43,0,0,99.9,100
+1384B2020,Frillesås · B2020,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",1110,69,0,0,0,5.4
+1384B2020,Frillesås · B2020,Volvo Lundby,bil (fri trafik),1110,45,0,0,74.2,100
+1384B2020,Frillesås · B2020,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",1110,74,0,0,0,0
+1384B2020,Frillesås · B2020,Volvo Torslanda,bil (fri trafik),1110,48,0,0,6.7,100
+1384B2020,Frillesås · B2020,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",1110,89,0,0,0,0
+1384B3020,Fjärås · B3020,Chalmers,bil (fri trafik),2552,39,0,0,100,100
+1384B3020,Fjärås · B3020,Chalmers,"kollektivtrafik, bästa avgången 07-09",2552,57,0,0,0,85.2
+1384B3020,Fjärås · B3020,Göteborg C,bil (fri trafik),2552,39,0,0,100,100
+1384B3020,Fjärås · B3020,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2552,43,0,0,72.7,100
+1384B3020,Fjärås · B3020,Kungsbacka C,bil (fri trafik),2552,16,32.3,100,100,100
+1384B3020,Fjärås · B3020,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2552,20,0,100,100,100
+1384B3020,Fjärås · B3020,Sahlgrenska universitetssjukhuset,bil (fri trafik),2552,41,0,0,100,100
+1384B3020,Fjärås · B3020,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2552,54,0,0,0,99.6
+1384B3020,Fjärås · B3020,Volvo Lundby,bil (fri trafik),2552,43,0,0,98.2,100
+1384B3020,Fjärås · B3020,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2552,58,0,0,0,69.6
+1384B3020,Fjärås · B3020,Volvo Torslanda,bil (fri trafik),2552,46,0,0,17.2,100
+1384B3020,Fjärås · B3020,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2552,74,0,0,0,0
+1384A0020,Frillesås-Gällinge omland · A0020,Chalmers,bil (fri trafik),2025,43,0,0,78,100
+1384A0020,Frillesås-Gällinge omland · A0020,Chalmers,"kollektivtrafik, bästa avgången 07-09",2025,88,0,0,0,0
+1384A0020,Frillesås-Gällinge omland · A0020,Göteborg C,bil (fri trafik),2025,43,0,0,73.2,100
+1384A0020,Frillesås-Gällinge omland · A0020,Göteborg C,"kollektivtrafik, bästa avgången 07-09",2025,76,0,0,0,15.8
+1384A0020,Frillesås-Gällinge omland · A0020,Kungsbacka C,bil (fri trafik),2025,25,0,91.5,100,100
+1384A0020,Frillesås-Gällinge omland · A0020,Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",2025,46,0,5,37.7,91.4
+1384A0020,Frillesås-Gällinge omland · A0020,Sahlgrenska universitetssjukhuset,bil (fri trafik),2025,45,0,0,59.4,100
+1384A0020,Frillesås-Gällinge omland · A0020,Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",2025,86,0,0,0,0
+1384A0020,Frillesås-Gällinge omland · A0020,Volvo Lundby,bil (fri trafik),2025,47,0,0,32.6,100
+1384A0020,Frillesås-Gällinge omland · A0020,Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",2025,91,0,0,0,0
+1384A0020,Frillesås-Gällinge omland · A0020,Volvo Torslanda,bil (fri trafik),2025,50,0,0,6.1,99.9
+1384A0020,Frillesås-Gällinge omland · A0020,Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",2025,107,0,0,0,0

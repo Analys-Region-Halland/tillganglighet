@@ -1,0 +1,49 @@
+﻿mal,fardsatt,inom_min,invanare,andel_procent,rutor,median_restid_min
+Chalmers,bil (fri trafik),15,0,0,0,33
+Chalmers,bil (fri trafik),30,32739,38,866,33
+Chalmers,bil (fri trafik),45,85122,98.7,3497,33
+Chalmers,bil (fri trafik),60,86232,100,3767,33
+Chalmers,"kollektivtrafik, bästa avgången 07-09",15,0,0,0,60
+Chalmers,"kollektivtrafik, bästa avgången 07-09",30,12,0,1,60
+Chalmers,"kollektivtrafik, bästa avgången 07-09",45,12758,14.8,167,60
+Chalmers,"kollektivtrafik, bästa avgången 07-09",60,44537,51.6,887,60
+Göteborg C,bil (fri trafik),15,0,0,0,33
+Göteborg C,bil (fri trafik),30,24722,28.7,617,33
+Göteborg C,bil (fri trafik),45,84812,98.4,3442,33
+Göteborg C,bil (fri trafik),60,86232,100,3767,33
+Göteborg C,"kollektivtrafik, bästa avgången 07-09",15,0,0,0,50
+Göteborg C,"kollektivtrafik, bästa avgången 07-09",30,3280,3.8,23,50
+Göteborg C,"kollektivtrafik, bästa avgången 07-09",45,33540,38.9,529,50
+Göteborg C,"kollektivtrafik, bästa avgången 07-09",60,66098,76.7,1930,50
+Kungsbacka C,bil (fri trafik),15,36033,41.8,920,17
+Kungsbacka C,bil (fri trafik),30,85763,99.5,3648,17
+Kungsbacka C,bil (fri trafik),45,86232,100,3767,17
+Kungsbacka C,bil (fri trafik),60,86232,100,3767,17
+Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",15,19309,22.4,143,29
+Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",30,45983,53.3,1014,29
+Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",45,72358,83.9,2526,29
+Kungsbacka C,"kollektivtrafik, bästa avgången 07-09",60,83002,96.3,3420,29
+Sahlgrenska universitetssjukhuset,bil (fri trafik),15,0,0,0,35
+Sahlgrenska universitetssjukhuset,bil (fri trafik),30,23101,26.8,704,35
+Sahlgrenska universitetssjukhuset,bil (fri trafik),45,83561,96.9,3302,35
+Sahlgrenska universitetssjukhuset,bil (fri trafik),60,86232,100,3767,35
+Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",15,0,0,0,56
+Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",30,103,0.1,3,56
+Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",45,16893,19.6,201,56
+Sahlgrenska universitetssjukhuset,"kollektivtrafik, bästa avgången 07-09",60,51682,59.9,1124,56
+Volvo Lundby,bil (fri trafik),15,0,0,0,37
+Volvo Lundby,bil (fri trafik),30,12611,14.6,409,37
+Volvo Lundby,bil (fri trafik),45,78757,91.3,2944,37
+Volvo Lundby,bil (fri trafik),60,86232,100,3767,37
+Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",15,0,0,0,63
+Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",30,0,0,0,63
+Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",45,2301,2.7,19,63
+Volvo Lundby,"kollektivtrafik, bästa avgången 07-09",60,36377,42.2,534,63
+Volvo Torslanda,bil (fri trafik),15,0,0,0,40
+Volvo Torslanda,bil (fri trafik),30,10332,12,353,40
+Volvo Torslanda,bil (fri trafik),45,65575,76,2290,40
+Volvo Torslanda,bil (fri trafik),60,86230,100,3763,40
+Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",15,0,0,0,76
+Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",30,0,0,0,76
+Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",45,103,0.1,3,76
+Volvo Torslanda,"kollektivtrafik, bästa avgången 07-09",60,11081,12.9,145,76

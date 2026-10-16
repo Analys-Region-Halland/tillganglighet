@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "mal",
+"xy_coordinate_resolution": 1e-06,
+"features": [
+{ "type": "Feature", "properties": { "id": "goteborg-c", "namn": "Göteborg C" }, "geometry": { "type": "Point", "coordinates": [ 11.973738, 57.708621 ] } },
+{ "type": "Feature", "properties": { "id": "kungsbacka-c", "namn": "Kungsbacka C" }, "geometry": { "type": "Point", "coordinates": [ 12.079643, 57.489721 ] } },
+{ "type": "Feature", "properties": { "id": "sahlgrenska", "namn": "Sahlgrenska universitetssjukhuset" }, "geometry": { "type": "Point", "coordinates": [ 11.960926, 57.68356 ] } },
+{ "type": "Feature", "properties": { "id": "chalmers", "namn": "Chalmers" }, "geometry": { "type": "Point", "coordinates": [ 11.972531, 57.690024 ] } },
+{ "type": "Feature", "properties": { "id": "volvo-lundby", "namn": "Volvo Lundby" }, "geometry": { "type": "Point", "coordinates": [ 11.921482, 57.716994 ] } },
+{ "type": "Feature", "properties": { "id": "volvo-torslanda", "namn": "Volvo Torslanda" }, "geometry": { "type": "Point", "coordinates": [ 11.861406, 57.728369 ] } }
+]
+}
